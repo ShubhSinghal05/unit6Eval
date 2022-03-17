@@ -1,0 +1,25 @@
+.movies-list{
+display: grid;
+grid-template-columns: 50 50;
+grid-template-rows: auto auto;
+grid-gap: 2%;
+text-decoration: none;
+}
+.head{
+    text-align: center;
+}
+
+.movies{
+    margin-left: 5%;
+    /* border: 1px solid red; */
+    text-decoration: none;
+    background-color: aliceblue;
+    font-size: 25px;
+}
+img{
+    margin-left: 5%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+    height: 50%;
+    margin-top: none;
+}
